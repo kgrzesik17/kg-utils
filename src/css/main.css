@@ -3,7 +3,8 @@
 :root {
   --bg-color: #f1f0f6;
   --main-color: #204353;
-  --secondary-color: #d7b377;
+  --secondary-color: #bdcae9;
+  --white: #ffffff;
 }
 
 body {
@@ -32,10 +33,13 @@ h1 {
   justify-content: center;
   align-items: center;
   width: 100%;
+}
+
+.input-container input {
   margin-top: 2rem;
 }
 
-.feature-input,
+.feature-input-text,
 .feature-submit {
   box-sizing: border-box;
   font-family: inherit;
@@ -45,7 +49,7 @@ h1 {
   border-radius: 10px;
 }
 
-.feature-input {
+.feature-input-text {
   height: 4rem;
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
@@ -58,4 +62,43 @@ h1 {
   padding: 1rem;
   font-size: 1.25rem;
   font-weight: 700;
+}
+.feature-input-switch {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 3rem;
+  width: 6rem;
+  background-color: var(--secondary-color);
+  border: 2px solid var(--main-color);
+  border-radius: 10rem;
+  padding: 0.25rem;
+}
+
+.feature-input-switch-slider {
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: var(--main-color);
+  border-radius: 10rem;
+}
+
+.feature-input-switch__off {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 3rem;
+  width: 6rem;
+  background-color: var(--white);
+  border: 2px solid var(--main-color);
+  border-radius: 10rem;
+  padding: 0.25rem;
+}
+
+.feature-input-switch__off-slider {
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: var(--main-color);
+  border-radius: 10rem;
 }
