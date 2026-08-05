@@ -33,10 +33,11 @@ h1 {
   justify-content: center;
   align-items: center;
   width: 100%;
+  margin-top: 2rem;
 }
 
 .input-container input {
-  margin-top: 2rem;
+  /* margin-top: 0.5rem; */
 }
 
 .feature-input-text,
@@ -74,6 +75,8 @@ h1 {
   border: 2px solid var(--main-color);
   border-radius: 10rem;
   padding: 0.25rem;
+  margin-right: 1.25rem;
+  margin-bottom: 1.5rem;
 }
 
 .feature-input-switch-slider {
@@ -83,22 +86,17 @@ h1 {
   border-radius: 10rem;
 }
 
-.feature-input-switch__off {
-  box-sizing: border-box;
-  display: flex;
+.switch__off {
   justify-content: start;
-  align-items: center;
-  height: 3rem;
-  width: 6rem;
   background-color: var(--white);
-  border: 2px solid var(--main-color);
-  border-radius: 10rem;
-  padding: 0.25rem;
 }
 
-.feature-input-switch__off-slider {
-  height: 2.5rem;
-  width: 2.5rem;
-  background-color: var(--main-color);
-  border-radius: 10rem;
+.switch-container {
+  display: flex;
+  align-items: center;
+  width: 80vw;
+}
+
+.switch-text {
+  font-size: 1.25rem;
 }

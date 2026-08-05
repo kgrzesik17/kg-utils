@@ -1,7 +1,7 @@
 "use strict";
 
-const openButton = document.querySelector(".test");
+const isImperialSwitch = document.querySelector("#is-imperial");
 
-openButton.addEventListener("click", openModal);
-
-function openModal() {}
+isImperialSwitch.addEventListener("click", function () {
+  this.classList.toggle("switch__off");
+});

@@ -16,14 +16,25 @@
         </div>
 
         <div class="input-container">
-          <input class="feature-input-text" type="input" placeholder="Wzrost" />
+          <input
+            class="feature-input-text"
+            type="number"
+            placeholder="Wzrost"
+          />
+          <input class="feature-input-text" type="number" placeholder="Waga" />
+          <input class="feature-input-text" type="number" placeholder="Wiek" />
+          <input
+            class="feature-input-text"
+            type="input"
+            placeholder="Docelowa waga"
+          />
+          <input class="feature-input-text" type="number" placeholder="Czas" />
 
-          <div class="feature-input-switch">
-            <div class="feature-input-switch-slider"></div>
-          </div>
-
-          <div class="feature-input-switch__off">
-            <div class="feature-input-switch__off-slider"></div>
+          <div class="switch-container">
+            <div id="is-imperial" class="feature-input-switch switch__off">
+              <div class="feature-input-switch-slider"></div>
+            </div>
+            <p class="switch-text">Jednostki imperialne</p>
           </div>
 
           <input class="feature-submit" type="button" value="Oblicz!" />
