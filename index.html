@@ -10,7 +10,7 @@
   </head>
   <body>
     <main>
-      <form action="" method="">
+      <form class="feature" action="" method="">
         <div class="description-container">
           <h1 class="title">Kalkulator Kalorii</h1>
         </div>
@@ -22,7 +22,9 @@
             placeholder="Wzrost"
             id="height"
             name="height"
-            required
+            min="50"
+            max="250"
+            value="186"
           />
           <input
             class="feature-input-text"
@@ -30,7 +32,9 @@
             placeholder="Waga"
             id="weight"
             name="weight"
-            required
+            min="20"
+            max="400"
+            value="83"
           />
           <input
             class="feature-input-text"
@@ -38,7 +42,9 @@
             placeholder="Wiek"
             id="age"
             name="age"
-            required
+            min="0"
+            max="120"
+            value="23"
           />
           <input
             class="feature-input-text"
@@ -46,7 +52,9 @@
             placeholder="Docelowa waga"
             id="target-weight"
             name="target-weight"
-            required
+            min="20"
+            max="400"
+            value="75"
           />
           <input
             class="feature-input-text"
@@ -54,7 +62,9 @@
             placeholder="Czas (dni)"
             id="time"
             name="time"
-            required
+            min="1"
+            max="1000"
+            value="30"
           />
 
           <div class="switch-container">
@@ -66,15 +76,9 @@
           </div>
 
           <div class="radio-container">
-            <input
-              type="radio"
-              id="sex-female"
-              name="sex"
-              value="female"
-              required
-            />
+            <input type="radio" id="sex-female" name="sex" value="female" />
             <label for="html">Kobieta</label><br />
-            <input type="radio" id="sex-male" name="sex" value="male" />
+            <input type="radio" id="sex-male" name="sex" value="male" checked />
             <label for="css">Mężczyzna</label><br />
           </div>
 

@@ -18,4 +18,12 @@ form.addEventListener("submit", (e) => {
   data = Object.fromEntries(formData.entries());
 
   console.log(data);
+  console.log(calculateMetabolism(data));
 });
+
+function calculateMetabolism(data) {
+  if (data.sex === "male")
+    return 66.5 + 13.75 * data.weight + 5.003 * data.height - 6.775 * data.age;
+  else if (data.sex === "female")
+    return 655.1 + 9.563 * data.weight + 1.85 * data.height - 4.676 * data.age;
+}
