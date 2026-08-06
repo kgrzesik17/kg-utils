@@ -50,6 +50,10 @@ h1 {
   border-radius: 10px;
 }
 
+.feature-submit {
+  margin-top: 2rem;
+}
+
 .feature-input-text {
   height: 4rem;
   font-size: 1.5rem;
@@ -64,6 +68,13 @@ h1 {
   font-size: 1.25rem;
   font-weight: 700;
 }
+.switch-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  width: 80vw;
+}
+
 .feature-input-switch {
   box-sizing: border-box;
   display: flex;
@@ -76,7 +87,6 @@ h1 {
   border-radius: 10rem;
   padding: 0.25rem;
   margin-right: 1.25rem;
-  margin-bottom: 1.5rem;
 }
 
 .feature-input-switch-slider {
@@ -91,12 +101,53 @@ h1 {
   background-color: var(--white);
 }
 
-.switch-container {
+.switch-text {
+  font-size: 1.25rem;
+}
+
+.radio-container {
   display: flex;
-  align-items: center;
+  width: 80vw;
+  justify-content: start;
+  margin-bottom: 1.5rem;
+}
+
+.radio-container label {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+.radio-container input {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.slider-container {
   width: 80vw;
 }
 
-.switch-text {
-  font-size: 1.25rem;
+.slider-container input {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+}
+
+.slider-container label {
+  font-size: 1.2rem;
+}
+
+.slider {
+  appearance: none;
+  height: 1rem;
+  background-color: var(--secondary-color);
+  /* border: 1px solid var(--main-color); */
+  border-radius: 1rem;
+}
+
+.slider::-webkit-slider-thumb {
+  appearance: none;
+  height: 2rem;
+  width: 2rem;
+  background-color: var(--main-color);
+  border-radius: 50%;
 }

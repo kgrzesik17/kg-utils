@@ -20,21 +20,50 @@
             class="feature-input-text"
             type="number"
             placeholder="Wzrost"
+            id="height"
           />
-          <input class="feature-input-text" type="number" placeholder="Waga" />
-          <input class="feature-input-text" type="number" placeholder="Wiek" />
           <input
             class="feature-input-text"
-            type="input"
-            placeholder="Docelowa waga"
+            type="number"
+            placeholder="Waga"
+            id="weight"
           />
-          <input class="feature-input-text" type="number" placeholder="Czas" />
+          <input
+            class="feature-input-text"
+            type="number"
+            placeholder="Wiek"
+            id="age"
+          />
+          <input
+            class="feature-input-text"
+            type="number"
+            placeholder="Docelowa waga"
+            id="target-weight"
+          />
+          <input
+            class="feature-input-text"
+            type="number"
+            placeholder="Czas (dni)"
+            id="time"
+          />
 
           <div class="switch-container">
             <div id="is-imperial" class="feature-input-switch switch__off">
               <div class="feature-input-switch-slider"></div>
             </div>
             <p class="switch-text">Jednostki imperialne</p>
+          </div>
+
+          <div class="radio-container">
+            <input type="radio" id="html" name="fav_language" value="HTML" />
+            <label for="html">Kobieta</label><br />
+            <input type="radio" id="css" name="fav_language" value="CSS" />
+            <label for="css">Mężczyzna</label><br />
+          </div>
+
+          <div class="slider-container">
+            <label for="activity">Poziom aktywności</label>
+            <input type="range" id="activity" min="1" max="5" class="slider" />
           </div>
 
           <input class="feature-submit" type="button" value="Oblicz!" />
