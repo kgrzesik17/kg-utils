@@ -1,20 +1,21 @@
 "use strict";
 
+const form = document.querySelector("form");
 const isImperialSwitch = document.querySelector("#is-imperial");
-const submitButton = document.querySelector(".feature-submit");
 
-const heightInput = document.querySelector("#height");
+let data;
 
-let height, weight, age, target_weight, time, isImperial, sex, activity;
-
+// change switch styling on click
 isImperialSwitch.addEventListener("click", function () {
   this.classList.toggle("switch__off");
 });
 
-submitButton.addEventListener("click", function () {
-  validate();
-});
+// get data from the form
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
 
-function validate() {
-  console.log(heightInput.value);
-}
+  const formData = new FormData(form);
+  data = Object.fromEntries(formData.entries());
+
+  console.log(data);
+});
