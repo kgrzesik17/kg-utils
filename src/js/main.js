@@ -2,6 +2,7 @@
 
 const form = document.querySelector("form");
 const isImperialSwitch = document.querySelector("#is-imperial");
+const outputContainer = document.querySelector(".output");
 
 let data;
 
@@ -18,7 +19,9 @@ form.addEventListener("submit", (e) => {
   data = Object.fromEntries(formData.entries());
 
   console.log(data);
-  calculateCalories();
+  // calculateCalories();
+
+  renderOutput(data);
 });
 
 function calculateMetabolism() {
@@ -28,7 +31,7 @@ function calculateMetabolism() {
     return 655.1 + 9.563 * data.weight + 1.85 * data.height - 4.676 * data.age;
 }
 
-function calculateCalories() {
+function renderOutput() {
   const goalDifference = data.weight - data.targetWeight;
   const calorieDeficitOverall = goalDifference * 9 * 1000;
   const calorieDeficitPerDay = calorieDeficitOverall / data.time;
@@ -45,4 +48,28 @@ function calculateCalories() {
   console.log(
     `That means you have to eat around ${diet} calories per day for ${data.time} days to reach the goal`,
   );
+
+  const html = `
+  <p class="output-title">Wynik</p><p class="output-info">
+              Twój bazowy metabolizm to
+              <span class="output-number" id="base-metabolism">${calculateMetabolism().toFixed(0)}</span> kcal
+            </p>
+            <p class="output-info">
+              Razem z aktywnością daje
+              <span class="output-number" id="base-metabolism">${tdee}</span> kcal
+            </p>
+            <p class="output-info">
+              Potrzebujesz deficytu
+              <span class="output-number" id="base-metabolism">${calorieDeficitPerDay}</span> kcal dziennie
+            </p>
+            <p class="output-info">
+              Musisz jeść
+              <span class="output-number" id="base-metabolism">${diet}</span> kcal
+              dziennie przez
+              <span class="output-number" id="base-metabolism">${data.time}</span> dni,
+              aby osiągnąć cel.
+            </p>`;
+
+  outputContainer.innerHTML = "";
+  outputContainer.insertAdjacentHTML("beforeend", html);
 }
