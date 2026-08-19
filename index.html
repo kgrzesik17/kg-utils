@@ -24,7 +24,7 @@
             name="height"
             min="50"
             max="250"
-            value="186"
+            required
           />
           <input
             class="feature-input-text"
@@ -34,7 +34,7 @@
             name="weight"
             min="20"
             max="400"
-            value="83"
+            required
           />
           <input
             class="feature-input-text"
@@ -44,7 +44,7 @@
             name="age"
             min="0"
             max="120"
-            value="23"
+            required
           />
           <input
             class="feature-input-text"
@@ -54,7 +54,7 @@
             name="targetWeight"
             min="20"
             max="400"
-            value="75"
+            required
           />
           <input
             class="feature-input-text"
@@ -64,7 +64,7 @@
             name="time"
             min="1"
             max="1000"
-            value="30"
+            required
           />
 
           <div class="switch-container">
@@ -96,28 +96,7 @@
 
           <input class="feature-submit" type="submit" value="Oblicz!" />
 
-          <div class="output">
-            <p class="output-title">Wynik</p>
-            <p class="output-info">
-              Twój bazowy metabolizm to
-              <span class="output-number" id="base-metabolism">1222</span> kcal
-            </p>
-            <p class="output-info">
-              Razem z aktywnością daje
-              <span class="output-number" id="base-metabolism">1222</span> kcal
-            </p>
-            <p class="output-info">
-              Potrzebujesz deficytu
-              <span class="output-number" id="base-metabolism">1222</span> kcal
-            </p>
-            <p class="output-info">
-              Musisz jeść
-              <span class="output-number" id="base-metabolism">1000</span> kcal
-              dziennie przez
-              <span class="output-number" id="base-metabolism">10</span> dni,
-              aby osiągnąć cel.
-            </p>
-          </div>
+          <div class="output"></div>
         </div>
       </form>
     </main>

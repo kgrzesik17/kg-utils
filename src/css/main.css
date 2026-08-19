@@ -153,6 +153,7 @@ h1 {
 }
 
 .output {
+  visibility: hidden;
   margin-top: 4rem;
   /* display: flex; */
   width: 80vw;

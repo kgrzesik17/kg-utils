@@ -40,15 +40,6 @@ function renderOutput() {
   const tdee = (calculateMetabolism() * activityNumber).toFixed(0);
   const diet = (tdee - calorieDeficitPerDay).toFixed(0);
 
-  console.log(`Daily base metabolism: ${calculateMetabolism()} kcal`);
-  console.log(`With all daily activities, that comes to ${tdee} kcal`);
-  console.log(
-    `You need to keep ${calorieDeficitPerDay} calorie sulprus/deficit per day`,
-  );
-  console.log(
-    `That means you have to eat around ${diet} calories per day for ${data.time} days to reach the goal`,
-  );
-
   const html = `
   <p class="output-title">Wynik</p><p class="output-info">
               Twój bazowy metabolizm to
@@ -72,4 +63,5 @@ function renderOutput() {
 
   outputContainer.innerHTML = "";
   outputContainer.insertAdjacentHTML("beforeend", html);
+  outputContainer.style.visibility = "visible";
 }
