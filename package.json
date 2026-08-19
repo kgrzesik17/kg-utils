@@ -1,0 +1,24 @@
+{
+  "name": "kg-utils",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/kgrzesik17/kg-utils#readme",
+  "bugs": {
+    "url": "https://github.com/kgrzesik17/kg-utils/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kgrzesik17/kg-utils.git"
+  },
+  "license": "ISC",
+  "author": "Kacper Grzesik",
+  "type": "commonjs",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  }
+}
