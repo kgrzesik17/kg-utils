@@ -22,6 +22,11 @@ form.addEventListener("submit", (e) => {
   // calculateCalories();
 
   renderOutput(data);
+
+  window.scrollTo({
+    top: document.documentElement.scrollHeight,
+    behavior: "smooth",
+  });
 });
 
 function calculateMetabolism() {
