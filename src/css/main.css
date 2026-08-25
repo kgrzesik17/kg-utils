@@ -190,7 +190,45 @@ h1 {
 
 .feature-input-text:focus + .input-label,
 .feature-input-text:not(:placeholder-shown) + .input-label {
-  top: 6px;
+  top: 0.5rem;
   transform: translateY(0);
   font-size: 0.5rem;
+}
+
+.split-container {
+  display: flex;
+  align-items: stretch;
+  border: 1px solid var(--main-color);
+  border-radius: 10px;
+  background-color: var(--white);
+  box-sizing: border-box;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+
+.split-field {
+  position: relative;
+  flex: 1;
+}
+
+.split-input {
+  border: none !important;
+  /* border-radius: 0 !important; */
+  width: 40vw !important;
+  margin-bottom: 0 !important;
+}
+
+.split-divider {
+  width: 1px;
+  background-color: var(--main-color);
+  margin: 0.5rem 0;
+}
+
+.split-container .input-label {
+  transform: translateY(30%);
+}
+
+.hidden {
+  display: none;
+  visibility: hidden;
 }

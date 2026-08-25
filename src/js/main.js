@@ -23,27 +23,10 @@ function init() {
   activitySlider.setAttribute("value", baseActivityLevel);
 }
 
-// change switch styling on click
-// isImperialSwitch.addEventListener("click", function () {
-//   const heightInput = document.querySelector("#height");
-//   const weightInput = document.querySelector("#weight");
-
-//   this.classList.toggle("switch__off");
-
-//   this.dataset.isImperial =
-//     this.dataset.isImperial === "false" ? "true" : "false";
-
-//   if (this.dataset.isImperial === "false") {
-//     heightInput.setAttribute("placeholder", "Wzrost (cm)");
-//     weightInput.setAttribute("placeholder", "Waga (kg)");
-//   } else {
-//     heightInput.setAttribute("placeholder", "Wzrost (ft, inch)");
-//     weightInput.setAttribute("placeholder", "Waga (lbs)");
-//   }
-// });
-
+// imperial switch logic
 isImperialSwitch.addEventListener("click", function () {
-  const heightLabel = document.querySelector("#height-label");
+  const heightMetric = document.querySelector("#height-metric");
+  const heightImperaial = document.querySelector("#height-imperial");
   const weightLabel = document.querySelector("#weight-label");
   const targetWeightLabwel = document.querySelector("#target-weight-label");
 
@@ -53,11 +36,13 @@ isImperialSwitch.addEventListener("click", function () {
     this.dataset.isImperial === "false" ? "true" : "false";
 
   if (this.dataset.isImperial === "false") {
-    heightLabel.textContent = "Wzrost (cm)";
+    heightMetric.classList.toggle("hidden");
+    heightImperaial.classList.toggle("hidden");
     weightLabel.textContent = "Waga (kg)";
     targetWeightLabwel.textContent = "Docelowa waga (kg)";
   } else {
-    heightLabel.textContent = "Wzrost (ft, inch)";
+    heightMetric.classList.toggle("hidden");
+    heightImperaial.classList.toggle("hidden");
     weightLabel.textContent = "Waga (lbs)";
     targetWeightLabwel.textContent = "Docelowa waga (lbs)";
   }

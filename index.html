@@ -16,7 +16,7 @@
         </div>
 
         <div class="inputs-container">
-          <div class="input-container">
+          <div id="height-metric" class="input-container">
             <input
               class="feature-input-text"
               type="number"
@@ -29,6 +29,34 @@
             <label for="height" id="height-label" class="input-label"
               >Wzrost (cm)</label
             >
+          </div>
+          <div
+            id="height-imperial"
+            class="input-container split-container hidden"
+          >
+            <div class="split-field">
+              <input
+                class="feature-input-text split-input"
+                type="number"
+                placeholder=" "
+                id="height-ft"
+                name="heightFt"
+              />
+              <label for="height-ft" class="input-label">Stopy (ft)</label>
+            </div>
+
+            <div class="split-divider"></div>
+
+            <div class="split-field">
+              <input
+                class="feature-input-text split-input"
+                type="number"
+                placeholder=" "
+                id="height-in"
+                name="heightIn"
+              />
+              <label for="height-in" class="input-label">Cale (in)</label>
+            </div>
           </div>
           <div class="input-container">
             <input
