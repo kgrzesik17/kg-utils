@@ -1,4 +1,4 @@
-3541
+3531
 74D:\xampp\htdocs\kg-utils\node_modules\@parcel\transformer-babel\lib\jsx.js134316233350072552 0
 35D:\xampp\htdocs\kg-utils\.gitignore134316245255491943 0
 80D:\xampp\htdocs\kg-utils\node_modules\node-gyp-build-optional-packages\README.md134316233349406849 0
@@ -12,9 +12,9 @@
 66D:\xampp\htdocs\kg-utils\node_modules\@swc\helpers\esm\_extends.js134316233352173603 0
 58D:\xampp\htdocs\kg-utils\node_modules\msgpackr\index.d.cts134316233349652839 0
 42D:\xampp\htdocs\kg-utils\package-lock.json134316233363276806 0
-29D:\xampp\htdocs\kg-utils\dist134316251403103366 1
+29D:\xampp\htdocs\kg-utils\dist134320590843186852 1
 56D:\xampp\htdocs\kg-utils\node_modules\.package-lock.json134316233363593428 0
-35D:\xampp\htdocs\kg-utils\index.html134316246171838029 0
+35D:\xampp\htdocs\kg-utils\index.html134320587194039391 0
 106D:\xampp\htdocs\kg-utils\node_modules\node-gyp-build-optional-packages\node_modules\detect-libc\lib\elf.js134316233349102638 0
 61D:\xampp\htdocs\kg-utils\node_modules\@lezer\common\README.md134316233349672841 0
 48D:\xampp\htdocs\kg-utils\node_modules\nullthrows134316233349292790 1
@@ -57,7 +57,7 @@
 31D:\xampp\htdocs\kg-utils\src\js134303299846584903 1
 56D:\xampp\htdocs\kg-utils\node_modules\chalk\package.json134316233349376948 0
 44D:\xampp\htdocs\kg-utils\node_modules\parcel134316233349672841 1
-39D:\xampp\htdocs\kg-utils\src\js\main.js134316251003965275 0
+39D:\xampp\htdocs\kg-utils\src\js\main.js134320590232740283 0
 83D:\xampp\htdocs\kg-utils\node_modules\caniuse-lite\data\features\media-fragments.js134316233355112404 0
 69D:\xampp\htdocs\kg-utils\node_modules\@parcel\profiler\lib\Trace.d.ts134316233350153833 0
 70D:\xampp\htdocs\kg-utils\node_modules\type-fest\source\promisable.d.ts134316233350692440 0
@@ -282,7 +282,6 @@
 69D:\xampp\htdocs\kg-utils\node_modules\caniuse-lite\data\regions\HU.js134316233354354305 0
 67D:\xampp\htdocs\kg-utils\node_modules\@swc\helpers\esm\_ts_param.js134316233352541991 0
 61D:\xampp\htdocs\kg-utils\node_modules\react-refresh\README.md134316233349743308 0
-55D:\xampp\htdocs\kg-utils\dist\kg-utils.34df27b5.css.map134316249774921927 0
 63D:\xampp\htdocs\kg-utils\node_modules\weak-lru-cache\index.d.ts134316233349662850 0
 57D:\xampp\htdocs\kg-utils\node_modules\browserslist\cli.js134316233348927401 0
 61D:\xampp\htdocs\kg-utils\node_modules\weak-lru-cache\index.js134316233348992468 0
@@ -507,7 +506,6 @@
 87D:\xampp\htdocs\kg-utils\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest4.c134316233351912571 0
 76D:\xampp\htdocs\kg-utils\node_modules\type-fest\source\iterable-element.d.ts134316233350232453 0
 75D:\xampp\htdocs\kg-utils\node_modules\caniuse-lite\data\features\css-all.js134316233352224665 0
-54D:\xampp\htdocs\kg-utils\dist\kg-utils.9079f149.js.map134316238268872616 0
 76D:\xampp\htdocs\kg-utils\node_modules\lmdb\node_modules\node-addon-api\tools134316233350252464 1
 60D:\xampp\htdocs\kg-utils\node_modules\react-refresh\babel.js134316233348747267 0
 90D:\xampp\htdocs\kg-utils\node_modules\caniuse-lite\data\features\form-submit-attributes.js134316233354052668 0
@@ -658,7 +656,6 @@
 54D:\xampp\htdocs\kg-utils\node_modules\globals\index.js134316233348747267 0
 60D:\xampp\htdocs\kg-utils\node_modules\supports-color\license134316233348577317 0
 86D:\xampp\htdocs\kg-utils\node_modules\@swc\helpers\esm\_check_private_redeclaration.js134316233351912571 0
-54D:\xampp\htdocs\kg-utils\dist\kg-utils.aa69868b.js.map134316250170071940 0
 65D:\xampp\htdocs\kg-utils\node_modules\supports-color\package.json134316233349057344 0
 83D:\xampp\htdocs\kg-utils\node_modules\caniuse-lite\data\features\offscreencanvas.js134316233355571913 0
 72D:\xampp\htdocs\kg-utils\node_modules\@parcel\core\lib\public\Symbols.js134316233352393626 0
@@ -750,14 +747,13 @@
 93D:\xampp\htdocs\kg-utils\node_modules\@swc\helpers\src\_class_static_private_field_update.mjs134316233353694059 0
 85D:\xampp\htdocs\kg-utils\node_modules\@parcel\resolver-default\src\DefaultResolver.js134316233349007318 0
 60D:\xampp\htdocs\kg-utils\node_modules\semver\functions\gt.js134316233350022540 0
-55D:\xampp\htdocs\kg-utils\dist\kg-utils.f2f90c49.css.map134316251403097023 0
+55D:\xampp\htdocs\kg-utils\dist\kg-utils.f2f90c49.css.map134320590843186852 0
 80D:\xampp\htdocs\kg-utils\node_modules\@parcel\core\src\serializerCore.browser.js134316233352313608 0
 65D:\xampp\htdocs\kg-utils\node_modules\dotenv-expand\lib\main.d.ts134316233349577536 0
 54D:\xampp\htdocs\kg-utils\node_modules\msgpackr\pack.js134316233350182942 0
 61D:\xampp\htdocs\kg-utils\node_modules\semver\functions\gte.js134316233350072552 0
 101D:\xampp\htdocs\kg-utils\node_modules\@parcel\source-map\parcel_sourcemap_wasm\dist-node\package.json134316233350432448 0
 54D:\xampp\htdocs\kg-utils\node_modules\has-flag\license134316233349057344 0
-50D:\xampp\htdocs\kg-utils\dist\kg-utils.aa69868b.js134316250170061936 0
 61D:\xampp\htdocs\kg-utils\node_modules\semver\functions\inc.js134316233350200193 0
 55D:\xampp\htdocs\kg-utils\node_modules\react-refresh\cjs134316233349512021 1
 69D:\xampp\htdocs\kg-utils\node_modules\caniuse-lite\data\regions\DJ.js134316233353544677 0
@@ -1282,7 +1278,6 @@
 70D:\xampp\htdocs\kg-utils\node_modules\lmdb\dependencies\lmdb\libraries134316233349366957 1
 78D:\xampp\htdocs\kg-utils\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb134316233352791828 1
 55D:\xampp\htdocs\kg-utils\node_modules\commander\esm.mjs134316233349980424 0
-50D:\xampp\htdocs\kg-utils\dist\kg-utils.1b026ae3.js134316251403036241 0
 88D:\xampp\htdocs\kg-utils\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\COPYRIGHT134316233349436871 0
 64D:\xampp\htdocs\kg-utils\node_modules\@parcel\watcher\index.d.ts134316233351142193 0
 87D:\xampp\htdocs\kg-utils\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\Doxyfile134316233349906877 0
@@ -1450,14 +1445,14 @@
 56D:\xampp\htdocs\kg-utils\node_modules\is-extglob\LICENSE134316233348916829 0
 90D:\xampp\htdocs\kg-utils\node_modules\caniuse-lite\data\features\css-anchor-positioning.js134316233352234669 0
 61D:\xampp\htdocs\kg-utils\node_modules\is-extglob\package.json134316233348567321 0
-40D:\xampp\htdocs\kg-utils\dist\index.html134316251403036241 0
+40D:\xampp\htdocs\kg-utils\dist\index.html134320590843136003 0
 58D:\xampp\htdocs\kg-utils\node_modules\is-extglob\README.md134316233348737275 0
 69D:\xampp\htdocs\kg-utils\node_modules\caniuse-lite\data\regions\NA.js134316233355392505 0
 55D:\xampp\htdocs\kg-utils\node_modules\has-flag\index.js134316233348906826 0
 68D:\xampp\htdocs\kg-utils\node_modules\@parcel\core\lib\loadDotEnv.js134316233351755555 0
 72D:\xampp\htdocs\kg-utils\node_modules\@swc\helpers\cjs\_wrap_reg_exp.cjs134316233351765554 0
 83D:\xampp\htdocs\kg-utils\node_modules\caniuse-lite\data\features\x-frame-options.js134316233357166823 0
-51D:\xampp\htdocs\kg-utils\dist\kg-utils.f2f90c49.css134316251403036241 0
+51D:\xampp\htdocs\kg-utils\dist\kg-utils.f2f90c49.css134320590843146012 0
 58D:\xampp\htdocs\kg-utils\node_modules\globals\globals.json134316233349037346 0
 58D:\xampp\htdocs\kg-utils\node_modules\globals\package.json134316233349172893 0
 75D:\xampp\htdocs\kg-utils\node_modules\@parcel\cache\src\IDBCache.browser.js134316233349392298 0
@@ -1494,6 +1489,7 @@
 62D:\xampp\htdocs\kg-utils\node_modules\escalade\sync\index.d.ts134316233349823562 0
 69D:\xampp\htdocs\kg-utils\node_modules\caniuse-lite\data\regions\PS.js134316233355892080 0
 61D:\xampp\htdocs\kg-utils\node_modules\escalade\dist\index.mjs134316233349406849 0
+50D:\xampp\htdocs\kg-utils\dist\kg-utils.39f4c93b.js134320590843146012 0
 66D:\xampp\htdocs\kg-utils\node_modules\@parcel\workers\src\types.js134316233351132083 0
 55D:\xampp\htdocs\kg-utils\node_modules\dotenv-expand\lib134316233349557535 1
 69D:\xampp\htdocs\kg-utils\node_modules\caniuse-lite\data\regions\CZ.js134316233353454037 0
@@ -2555,7 +2551,6 @@
 101D:\xampp\htdocs\kg-utils\node_modules\@swc\helpers\_\_class_apply_descriptor_destructure\package.json134316233352801936 0
 96D:\xampp\htdocs\kg-utils\node_modules\@swc\helpers\_\_class_private_field_loose_key\package.json134316233352921562 0
 91D:\xampp\htdocs\kg-utils\node_modules\@swc\helpers\_\_class_private_field_init\package.json134316233352901544 0
-55D:\xampp\htdocs\kg-utils\dist\kg-utils.18d2de7f.css.map134316238268872616 0
 93D:\xampp\htdocs\kg-utils\node_modules\@parcel\package-manager\src\getCurrentPackageManager.js134316233348827988 0
 90D:\xampp\htdocs\kg-utils\node_modules\@swc\helpers\_\_class_private_field_get\package.json134316233352901544 0
 87D:\xampp\htdocs\kg-utils\node_modules\@swc\helpers\_\_class_name_tdz_error\package.json134316233352876390 0
@@ -2650,7 +2645,6 @@
 85D:\xampp\htdocs\kg-utils\node_modules\@parcel\core\test\fixtures\main-format-mismatch134316233352991577 1
 84D:\xampp\htdocs\kg-utils\node_modules\@swc\helpers\esm\_class_private_method_init.js134316233352047301 0
 83D:\xampp\htdocs\kg-utils\node_modules\@swc\helpers\esm\_class_private_method_set.js134316233352057303 0
-51D:\xampp\htdocs\kg-utils\dist\kg-utils.18d2de7f.css134316238268828241 0
 94D:\xampp\htdocs\kg-utils\node_modules\@swc\helpers\esm\_class_static_private_field_spec_set.js134316233352077306 0
 71D:\xampp\htdocs\kg-utils\node_modules\@swc\helpers\esm\_create_class.js134316233352102428 0
 67D:\xampp\htdocs\kg-utils\node_modules\@swc\helpers\esm\_decorate.js134316233352132448 0
@@ -2884,7 +2878,6 @@
 73D:\xampp\htdocs\kg-utils\node_modules\@parcel\workers\lib\web\WebChild.js134316233351162198 0
 74D:\xampp\htdocs\kg-utils\node_modules\@parcel\workers\lib\web\WebWorker.js134316233351202388 0
 81D:\xampp\htdocs\kg-utils\node_modules\@parcel\workers\lib\threads\ThreadsChild.js134316233351023421 0
-54D:\xampp\htdocs\kg-utils\dist\kg-utils.3464ddca.js.map134316248720922858 0
 82D:\xampp\htdocs\kg-utils\node_modules\@parcel\workers\lib\threads\ThreadsWorker.js134316233351073433 0
 82D:\xampp\htdocs\kg-utils\node_modules\@parcel\workers\lib\process\ProcessWorker.js134316233350883008 0
 71D:\xampp\htdocs\kg-utils\node_modules\@parcel\watcher-win32-x64\LICENSE134316233348577317 0
@@ -3132,7 +3125,6 @@
 60D:\xampp\htdocs\kg-utils\node_modules\@parcel\runtime-js\lib134316233350812083 1
 64D:\xampp\htdocs\kg-utils\node_modules\@parcel\runtime-js\LICENSE134316233348858006 0
 83D:\xampp\htdocs\kg-utils\node_modules\@parcel\runtime-js\src\helpers\cacheLoader.js134316233349316943 0
-51D:\xampp\htdocs\kg-utils\dist\kg-utils.34df27b5.css134316249774910598 0
 73D:\xampp\htdocs\kg-utils\node_modules\@parcel\runtime-js\src\helpers\node134316233351182197 1
 112D:\xampp\htdocs\kg-utils\node_modules\@parcel\core\test\fixtures\config-extends-not-found\.parcelrc-node-modules134316233350133269 0
 88D:\xampp\htdocs\kg-utils\node_modules\@parcel\runtime-js\src\helpers\worker\js-loader.js134316233350791940 0
@@ -3537,6 +3529,4 @@
 79D:\xampp\htdocs\kg-utils\node_modules\.bin\node-gyp-build-optional-packages.ps1134316233357802411 0
 53D:\xampp\htdocs\kg-utils\node_modules\.bin\semver.cmd134316233358254392 0
 53D:\xampp\htdocs\kg-utils\node_modules\.bin\semver.ps1134316233358244391 0
-54D:\xampp\htdocs\kg-utils\dist\kg-utils.1b026ae3.js.map134316251403097023 0
-50D:\xampp\htdocs\kg-utils\dist\kg-utils.3464ddca.js134316248720902858 0
-50D:\xampp\htdocs\kg-utils\dist\kg-utils.9079f149.js134316238268837573 0
+54D:\xampp\htdocs\kg-utils\dist\kg-utils.39f4c93b.js.map134320590843186852 0

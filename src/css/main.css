@@ -27,17 +27,13 @@ h1 {
   font-size: 2em;
 }
 
-.input-container {
+.inputs-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
   margin-top: 2rem;
-}
-
-.input-container input {
-  /* margin-top: 0.5rem; */
 }
 
 .feature-input-text,
@@ -176,4 +172,25 @@ h1 {
 
 .output-number {
   font-weight: 900;
+}
+
+.input-container {
+  position: relative;
+  display: inline-block;
+}
+
+.input-label {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  transition: all 0.2s ease;
+}
+
+.feature-input-text:focus + .input-label,
+.feature-input-text:not(:placeholder-shown) + .input-label {
+  top: 6px;
+  transform: translateY(0);
+  font-size: 0.5rem;
 }

@@ -24,9 +24,28 @@ function init() {
 }
 
 // change switch styling on click
+// isImperialSwitch.addEventListener("click", function () {
+//   const heightInput = document.querySelector("#height");
+//   const weightInput = document.querySelector("#weight");
+
+//   this.classList.toggle("switch__off");
+
+//   this.dataset.isImperial =
+//     this.dataset.isImperial === "false" ? "true" : "false";
+
+//   if (this.dataset.isImperial === "false") {
+//     heightInput.setAttribute("placeholder", "Wzrost (cm)");
+//     weightInput.setAttribute("placeholder", "Waga (kg)");
+//   } else {
+//     heightInput.setAttribute("placeholder", "Wzrost (ft, inch)");
+//     weightInput.setAttribute("placeholder", "Waga (lbs)");
+//   }
+// });
+
 isImperialSwitch.addEventListener("click", function () {
-  const heightInput = document.querySelector("#height");
-  const weightInput = document.querySelector("#weight");
+  const heightLabel = document.querySelector("#height-label");
+  const weightLabel = document.querySelector("#weight-label");
+  const targetWeightLabwel = document.querySelector("#target-weight-label");
 
   this.classList.toggle("switch__off");
 
@@ -34,11 +53,13 @@ isImperialSwitch.addEventListener("click", function () {
     this.dataset.isImperial === "false" ? "true" : "false";
 
   if (this.dataset.isImperial === "false") {
-    heightInput.setAttribute("placeholder", "Wzrost (cm)");
-    weightInput.setAttribute("placeholder", "Waga (kg)");
+    heightLabel.textContent = "Wzrost (cm)";
+    weightLabel.textContent = "Waga (kg)";
+    targetWeightLabwel.textContent = "Docelowa waga (kg)";
   } else {
-    heightInput.setAttribute("placeholder", "Wzrost (ft, inch)");
-    weightInput.setAttribute("placeholder", "Waga (lbs)");
+    heightLabel.textContent = "Wzrost (ft, inch)";
+    weightLabel.textContent = "Waga (lbs)";
+    targetWeightLabwel.textContent = "Docelowa waga (lbs)";
   }
 });
 
