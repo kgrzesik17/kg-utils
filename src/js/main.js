@@ -36,23 +36,7 @@ isImperialSwitch.addEventListener("click", function () {
 
   this.classList.toggle("switch__off");
 
-  // this.dataset.isImperial =
-  //   this.dataset.isImperial === "false" ? "true" : "false";
-
-  // if (this.dataset.isImperial === "false") {
-  //   heightMetric.classList.toggle("hidden");
-  //   heightImperaial.classList.toggle("hidden");
-  //   weightLabel.textContent = "Waga (kg)";
-  //   targetWeightLabwel.textContent = "Docelowa waga (kg)";
-  // } else {
-  //   heightMetric.classList.toggle("hidden");
-  //   heightImperaial.classList.toggle("hidden");
-  //   weightLabel.textContent = "Waga (lbs)";
-  //   targetWeightLabwel.textContent = "Docelowa waga (lbs)";
-  // }
-
   elements.forEach((element) => {
-    console.log(element);
     element.classList.toggle("hidden");
   });
 });
@@ -120,6 +104,18 @@ function renderOutput() {
   outputContainer.innerHTML = "";
   outputContainer.insertAdjacentHTML("beforeend", html);
   outputContainer.style.visibility = "visible";
+}
+
+function heightImperialToMetric(heightFt, heightIn) {
+  return heightFt * 30.48 + heightIn * 2.54;
+}
+
+function weightImperialToMetric(weightLbs) {
+  return weightLbs * 0.45359237;
+}
+
+function weightMetricToImperial(weightKg) {
+  return weightKg * 2.20462;
 }
 
 init();
