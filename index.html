@@ -58,7 +58,7 @@
               <label for="height-in" class="input-label">Cale (in)</label>
             </div>
           </div>
-          <div class="input-container">
+          <div id="weight-metric" class="input-container">
             <input
               class="feature-input-text"
               type="number"
@@ -70,6 +70,20 @@
             />
             <label for="weight" id="weight-label" class="input-label"
               >Waga (kg)</label
+            >
+          </div>
+          <div id="weight-imperial" class="input-container hidden">
+            <input
+              class="feature-input-text"
+              type="number"
+              placeholder=""
+              id="weight-lbs"
+              name="weight-lbs"
+              min="20"
+              max="400"
+            />
+            <label for="weight" id="weight-label" class="input-label"
+              >Waga (lbs)</label
             >
           </div>
           <div class="input-container">
@@ -84,7 +98,7 @@
             />
             <label for="age" id="age-label" class="input-label">Wiek</label>
           </div>
-          <div class="input-container">
+          <div id="target-weight-metric" class="input-container">
             <input
               class="feature-input-text"
               type="number"
@@ -99,6 +113,23 @@
               id="target-weight-label"
               class="input-label"
               >Docelowa waga (kg)</label
+            >
+          </div>
+          <div id="target-weight-imperial" class="input-container hidden">
+            <input
+              class="feature-input-text"
+              type="number"
+              placeholder=""
+              id="target-weight-lbs"
+              name="targetWeight-lbs"
+              min="20"
+              max="400"
+            />
+            <label
+              for="target-weight"
+              id="target-weight-label"
+              class="input-label"
+              >Docelowa waga (lbs)</label
             >
           </div>
           <div class="input-container">

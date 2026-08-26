@@ -196,26 +196,29 @@ h1 {
 }
 
 .split-container {
+  box-sizing: border-box;
+  width: 80vw;
+  height: 4rem;
   display: flex;
   align-items: stretch;
   border: 1px solid var(--main-color);
   border-radius: 10px;
   background-color: var(--white);
-  box-sizing: border-box;
   overflow: hidden;
   margin-bottom: 1.5rem;
+}
+
+.split-input {
+  box-sizing: border-box;
+  width: 100% !important;
+  height: 100% !important;
+  border: none !important;
+  margin-bottom: 0 !important;
 }
 
 .split-field {
   position: relative;
   flex: 1;
-}
-
-.split-input {
-  border: none !important;
-  /* border-radius: 0 !important; */
-  width: 40vw !important;
-  margin-bottom: 0 !important;
 }
 
 .split-divider {

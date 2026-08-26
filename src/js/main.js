@@ -25,27 +25,36 @@ function init() {
 
 // imperial switch logic
 isImperialSwitch.addEventListener("click", function () {
-  const heightMetric = document.querySelector("#height-metric");
-  const heightImperaial = document.querySelector("#height-imperial");
-  const weightLabel = document.querySelector("#weight-label");
-  const targetWeightLabwel = document.querySelector("#target-weight-label");
+  const elements = [
+    document.querySelector("#height-metric"),
+    document.querySelector("#height-imperial"),
+    document.querySelector("#weight-metric"),
+    document.querySelector("#weight-imperial"),
+    document.querySelector("#target-weight-metric"),
+    document.querySelector("#target-weight-imperial"),
+  ];
 
   this.classList.toggle("switch__off");
 
-  this.dataset.isImperial =
-    this.dataset.isImperial === "false" ? "true" : "false";
+  // this.dataset.isImperial =
+  //   this.dataset.isImperial === "false" ? "true" : "false";
 
-  if (this.dataset.isImperial === "false") {
-    heightMetric.classList.toggle("hidden");
-    heightImperaial.classList.toggle("hidden");
-    weightLabel.textContent = "Waga (kg)";
-    targetWeightLabwel.textContent = "Docelowa waga (kg)";
-  } else {
-    heightMetric.classList.toggle("hidden");
-    heightImperaial.classList.toggle("hidden");
-    weightLabel.textContent = "Waga (lbs)";
-    targetWeightLabwel.textContent = "Docelowa waga (lbs)";
-  }
+  // if (this.dataset.isImperial === "false") {
+  //   heightMetric.classList.toggle("hidden");
+  //   heightImperaial.classList.toggle("hidden");
+  //   weightLabel.textContent = "Waga (kg)";
+  //   targetWeightLabwel.textContent = "Docelowa waga (kg)";
+  // } else {
+  //   heightMetric.classList.toggle("hidden");
+  //   heightImperaial.classList.toggle("hidden");
+  //   weightLabel.textContent = "Waga (lbs)";
+  //   targetWeightLabwel.textContent = "Docelowa waga (lbs)";
+  // }
+
+  elements.forEach((element) => {
+    console.log(element);
+    element.classList.toggle("hidden");
+  });
 });
 
 // get data from the form
