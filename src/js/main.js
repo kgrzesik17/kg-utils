@@ -49,6 +49,12 @@ form.addEventListener("submit", (e) => {
   data = Object.fromEntries(formData.entries());
   data.isImperial = isImperialSwitch.dataset.isImperial;
 
+  if (!data.weight) data.weight = weightImperialToMetric(data.weightLbs);
+  if (!data.height)
+    data.height = heightImperialToMetric(data.heightFt, data.heightIn);
+  if (!data.targetWeight)
+    data.targetWeight = weightImperialToMetric(data.targetWeightLbs);
+
   console.log(data);
 
   renderOutput(data);
@@ -107,15 +113,15 @@ function renderOutput() {
 }
 
 function heightImperialToMetric(heightFt, heightIn) {
-  return heightFt * 30.48 + heightIn * 2.54;
+  return (heightFt * 30.48 + heightIn * 2.54).toFixed(0);
 }
 
 function weightImperialToMetric(weightLbs) {
-  return weightLbs * 0.45359237;
+  return (weightLbs * 0.45359237).toFixed(0);
 }
 
 function weightMetricToImperial(weightKg) {
-  return weightKg * 2.20462;
+  return (weightKg * 2.20462).toFixed(0);
 }
 
 init();
